@@ -1,0 +1,80 @@
+baseURL = "https://davidcharbonnier.fr/"
+languageCode = "fr-FR"
+title = "David Charbonnier"
+theme = "awesome-identity"
+# Content without language indicator will default to this language
+defaultContentLanguage = "fr"
+# Make .Summary and .WordCount behave correctly for CJK languages
+hasCJKLanguage = true
+PygmentsCodeFences = true
+# Enable to turn relative URLs into absolute
+canonifyURLs = true
+# Do not convert the url/path to lowercase
+disablePathToLower = false
+# Enable Emoji emoticons support for page content
+enableEmoji = true
+# Update the `Lastmod` parameter for each page using the last git commit date for that content file
+enableGitInfo = true
+# Enable generation of `robots.txt` file
+enableRobotsTXT = true
+
+# Add your own params here
+[params]
+
+## Crisp Configurations
+[params.crisp]
+
+## Meta Configurations (HTTP Meta tags & OpenGraph)
+[params.meta]
+  description = "Consultant DevOps / Expert Kubernetes"
+  keywords = ""
+  images = [
+    "/images/profile.jpg"
+  ]
+
+## Profile Configurations
+[params.profile]
+  portrait = "/images/profile.png"
+  firstname = "David"
+  lastname = "Charbonnier"
+  title = "Consultant DevOps / Expert Kubernetes"
+  bio = """"""
+
+## Contacts Configurations
+[params.contacts]
+  email = "contact@davidcharbonnier.fr"
+  github = "davidcharbonnier"
+  twitter = "@dcharbonnierFR"
+  linkedin = "davidcharbonnier"
+  # facebook = ""
+  # stackoverflow = ""
+  # instagram = ""
+  # medium = ""
+  # quora = ""
+  # dribbble = ""
+  # behance = ""
+
+## Actions Configurations
+[[params.actions]]
+  name = "CV (FR)"
+  url = "/files/cv.pdf"
+
+[[params.actions]]
+  name = "Resume (EN)"
+  url = "/files/resume.pdf"
+
+## Footer Configurations
+[params.footer]
+  copyright = "© 2019 David Charbonnier [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  poweredBy = true
+
+## Privacy Configurations (GDPR)
+[privacy]
+  [privacy.googleAnalytics]
+    disable = true
+    # Make the users’ IP addresses are anonymized within Google Analytics
+    anonymizeIP = true
+    # Make the GA templates respect the “Do Not Track” HTTP header
+    respectDoNotTrack = true
+    # Disable the use of Cookies and use Session Storage to Store the GA Client ID
+    useSessionStorage = true
