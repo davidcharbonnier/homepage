@@ -56,15 +56,15 @@ enableRobotsTXT = true
 ## Actions Configurations
 [[params.actions]]
   name = "CV (FR)"
-  url = "https://davidcharbonnier-cv.s3.ca-central-1.amazonaws.com/cv.pdf"
+  url = "https://github.com/davidcharbonnier/cv/releases/latest/download/cv.pdf"
 
 [[params.actions]]
   name = "Resume (EN)"
-  url = "https://davidcharbonnier-cv.s3.ca-central-1.amazonaws.com/resume.pdf"
+  url = "https://github.com/davidcharbonnier/cv/releases/latest/download/resume.pdf"
 
 ## Footer Configurations
 [params.footer]
-  copyright = "© 2019 David Charbonnier [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  copyright = "© 2019-2023 David Charbonnier [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
   poweredBy = true
 
 ## Privacy Configurations (GDPR)
