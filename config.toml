@@ -56,11 +56,11 @@ enableRobotsTXT = true
 ## Actions Configurations
 [[params.actions]]
   name = "CV (FR)"
-  url = "https://github.com/davidcharbonnier/cv/releases/lastest/download/cv.pdf"
+  url = "https://github.com/davidcharbonnier/cv/releases/latest/download/cv.pdf"
 
 [[params.actions]]
   name = "Resume (EN)"
-  url = "https://github.com/davidcharbonnier/cv/releases/lastest/download/resume.pdf"
+  url = "https://github.com/davidcharbonnier/cv/releases/latest/download/resume.pdf"
 
 ## Footer Configurations
 [params.footer]
