@@ -28,12 +28,12 @@ enableRobotsTXT = true
   description = "Ingénieur DevOps / Expert Kubernetes"
   keywords = ""
   images = [
-    "/images/profile.jpg"
+    "/images/profile.jpeg"
   ]
 
 ## Profile Configurations
 [params.profile]
-  portrait = "/images/profile.png"
+  portrait = "/images/profile.jpeg"
   firstname = "David"
   lastname = "Charbonnier"
   title = "Ingénieur DevOps / Expert Kubernetes"
