@@ -11,7 +11,7 @@ HUGO_ENABLEGITINFO = "true"
 
 # PR deployment config
 [context.deploy-preview]
-command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.111.3"
@@ -23,3 +23,20 @@ command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.111.3"
 
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+  [plugins.inputs.settings]
+  preset = "desktop"
+
+[[plugins]]
+  package = "netlify-plugin-inline-critical-css"
+
+[[plugins]]
+  package = "netlify-plugin-inline-source"
+
+[[plugins]]
+  package = "netlify-plugin-cloudinary"
+
+  [plugins.inputs]
+  cloudName = "davidcharbonnier"

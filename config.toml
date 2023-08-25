@@ -25,18 +25,18 @@ enableRobotsTXT = true
 
 ## Meta Configurations (HTTP Meta tags & OpenGraph)
 [params.meta]
-  description = "Consultant DevOps / Expert Kubernetes"
+  description = "Ingénieur DevOps / Expert Kubernetes"
   keywords = ""
   images = [
-    "/images/profile.jpg"
+    "/images/profile.jpeg"
   ]
 
 ## Profile Configurations
 [params.profile]
-  portrait = "/images/profile.png"
+  portrait = "/images/profile.jpeg"
   firstname = "David"
   lastname = "Charbonnier"
-  title = "Consultant DevOps / Expert Kubernetes"
+  title = "Ingénieur DevOps / Expert Kubernetes"
   bio = """"""
 
 ## Contacts Configurations
