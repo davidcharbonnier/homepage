@@ -34,9 +34,3 @@ HUGO_VERSION = "0.111.3"
 
 [[plugins]]
   package = "netlify-plugin-inline-source"
-
-[[plugins]]
-  package = "netlify-plugin-cloudinary"
-
-  [plugins.inputs]
-  cloudName = "davidcharbonnier"
